@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobile Insurance</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtNoteHint">Name your Crash Note Here ...</string>
+    <string name="lblBtnAdd">Add Crash Note</string>
+    <string name="txtEmpty">List is empty</string>
+    <string name="noInternet">No internet connection</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+  <TextView
+        android:id="@+id/tvHasCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"      
+		android:background="#FF0000"
+		android:textColor="#FFF"
+		android:textSize="18dp" 
+		android:layout_marginBottom="5dp"
+        android:text="Has Camera? " />
+
+    <TextView
+        android:id="@+id/tvHasCameraApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" 
+        android:background="#FF0000"
+		android:textColor="#FFF"    
+		android:textSize="18dp" 
+        android:text="Has Camera App?" />
+    
+    <Button
+        android:id="@+id/btnTakePic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" 
+         style="@style/mButtons"     
+        android:text="Take a Picture" />
+</LinearLayout>

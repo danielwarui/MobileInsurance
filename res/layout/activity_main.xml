@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c7e4d3"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginTop="5dip">
+
+                    <Button
+                        android:id="@+id/quote"
+                        style="@style/HomeButton"
+                        android:layout_width="144dp"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/getaquote"
+                        android:text="Get a quote"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/contact"
+                        style="@style/HomeButton"
+                        android:layout_width="147dp"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/contact"
+                        android:text="Contact us"
+                        android:textColor="#000000" />
+                    
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/pay"
+                        style="@style/HomeButton"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/creditcard_icon"
+                        android:text="Make a payment"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/crash"
+                        style="@style/HomeButton"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/crash_notes_icon"
+                        android:text="Start a crash note"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/claim"
+                        style="@style/HomeButton"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/make_a_claim"
+                        android:text="Make a claim"
+                        android:textColor="#000000" />
+
+                    <Button
+                        android:id="@+id/branch"
+                        style="@style/HomeButton"
+                        android:layout_margin="3dip"
+                        android:background="@drawable/button_color_changer"
+                        android:drawableTop="@drawable/maps_icon"
+                        android:text="Find a branch"
+                        android:textColor="#000000" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                   
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

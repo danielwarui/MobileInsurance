@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="default_circle_indicator_orientation">0</integer>
+    <integer name="default_title_indicator_footer_indicator_style">2</integer>
+    <integer name="default_title_indicator_line_position">0</integer>
+    <integer name="default_underline_indicator_fade_delay">300</integer>
+    <integer name="default_underline_indicator_fade_length">400</integer>
+    <integer name="google_play_services_version">4030500</integer>
+    <integer name="transition_animation_duration">500</integer>
+    <integer name="splash_screen_animation_start_delay_ms">1000</integer>
+    <integer name="splash_screen_transition_to_home_screen_delay_ms">300</integer>
+    <integer name="home_fade_in_anim_duration_ms">2000</integer>
+    <integer name="home_reenable_interactions_before_end_of_animation_ms">500</integer>
+    <integer name="home_selection_zoom_animation_duration_ms">750</integer>
+    <integer name="home_selection_zoom_animation_final_position_x">0</integer>
+    <integer name="home_selection_zoom_animation_final_position_y">0</integer>
+    <integer name="crashnote_number_of_lines_address">3</integer>
+    <integer name="crashnote_number_of_lines_notes">5</integer>
+    <item type="integer" name="gms_version">@integer/google_play_services_version</item>
+</resources>
